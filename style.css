@@ -1,0 +1,149 @@
+
+
+body {
+    font-family: 'Arial';
+    background-color: rgb(240, 242, 245);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+}
+
+#Container {
+    background: white;
+    width: 100%;
+    max-width: 700px; 
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+p{
+    font-size: 20px;
+    margin-top: 0;
+}
+
+section {
+    margin-bottom: 30px; 
+}
+
+h2 {
+    border-bottom: 2px solid rgb(0, 123, 255);
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Profile Image */
+.profile-img {
+    width:30%;
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid rgba(0,0,0,0.1);   
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+}
+.profile-img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    border: rgb(0, 123, 255) solid 2px;
+}
+
+/* Skill bars */
+.skill-item {
+    margin-bottom: 15px;
+}
+
+.bar-background {
+    background: rgb(224, 224, 224);
+    border-radius: 10px;
+    height: 12px;
+    margin-top: 5px;
+}
+
+.progress {
+    background: rgb(0, 123, 255);
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Tech Stack Logos */
+.stack-logos {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.stack-logo {
+    width: 100px;
+    height: 100px;
+}
+
+
+.stack-logo:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    padding: 12px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 6px;
+}
+
+button {
+    background: rgb(0, 123, 255);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: rgb(0, 86, 179);
+}
+
+/* Accounts */
+.accounts{
+    list-style: none;
+    padding: 0;
+}
+
+.account-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.account-item a {
+    text-decoration: none;
+    color: rgb(0, 123, 255);
+}
+.account-item a:hover {
+    color: rgb(0, 86, 179);
+    font-weight: bold;
+}
+.account-logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+ 
